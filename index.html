@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="app">
+
+    <div id="formulaire">
+        <h1>Formulaire utilisateur</h1>
+        <input class="formitem" type="text" value="" placeholder="nom"v-model="valeurDeNom">
+        <input class="formitem" type="text" value="" placeholder="age"v-model="valeurDeAge">
+        <input type="button"    v-on:click="changerUtil" value="Ajouter">
+    </div>
+
+    <div id="userSpace">
+
+        <img src="./julienL.jpeg" alt="">
+
+        <p class='nom' type="text" value="">{{valeurNom}}</p>
+        <p class='nom' type="text" value="">{{valeurAge}}</p>
+        <p class="nom" type="text" value="">{{valeurAgePlus}}</p>
+        <p class="nom" type="text" value="">{{nbRandom}}</p>
+        
+        
+        
+    </div>
+    
+
+
+     <!-- script pour contacter VUE -->
+     <script src="https://unpkg.com/vue@next"></script>
+     <script src="app.js"></script>
+</body>
+</html>

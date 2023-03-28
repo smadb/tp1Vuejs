@@ -1,0 +1,34 @@
+
+#app{
+    display: flex;
+    justify-content: space-around;
+}
+#userSpace{
+    align-items:center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border:solid 2px black;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.nom{
+    text-align: center;
+    margin: 1em;
+    height: 2em;
+    border-radius: 4%;
+    font-size: larger;
+}
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formitem{
+    margin:1em;
+    width: fit-content;
+    height: 2em;
+    text-align: center;
+}
